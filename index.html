@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Porfolio</title>
+</head>
+<body> 
+
+	<div id="container" class="container">
+		
+		<header id="header" class="header">
+			<div>
+				<img id="logo" src="image/Asset 1.png">
+			</div>
+
+			<div>
+				<span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; </span>
+			</div>
+			
+	    </header>
+
+		<div id="navbar" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#welcome-section">Home</a>
+			<a href="#projects">Project</a>
+			<a href="#about_me">About Me</a>
+			<a href="#contact">Contact</a>
+	    </div>
+
+	    <script>
+			function openNav() {
+			  document.getElementById("navbar").style.width = "100%";
+			}
+
+			function closeNav() {
+			  document.getElementById("navbar").style.width = "0";
+			}
+		</script>
+
+		<section id="welcome-section" class="welcome-section">
+			<div class="text-hero">
+				<p>Yethzibel Forero</p>
+				<h1>Building digital experiences on the web</h1>
+				<p>Frontend Developer & UI Designer</p>
+			</div>
+			
+			<a href=#contact>
+        		<button type="button" id="btn">CONNECT WITH ME</button>
+     		</a>
+
+     		<div>
+	     		<a href="#projects">
+	        		<svg id="skroll" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c3.309 0 6 2.691 6 6v8c0 3.309-2.691 6-6 6s-6-2.691-6-6v-8c0-3.309 2.691-6 6-6zm0-2c-4.418 0-8 3.582-8 8v8c0 4.418 3.582 8 8 8s8-3.582 8-8v-8c0-4.418-3.582-8-8-8zm0 9c-.829 0-1.5-.672-1.5-1.5s.671-1.5 1.5-1.5 1.5.672 1.5 1.5-.671 1.5-1.5 1.5z"/></svg>
+	      		</a>
+	      	</div>	
+		</section>
+
+		<section id="projects" class="projects">
+			<div id="projects-yeezy" class="project-tile">
+		        <img src="image/landing-page.png">
+
+		        <div class="text-yeezy">
+		        	<h1>Landing page Yeezy</h1>
+		            <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque sollicitudin dis hendrerit metus porta, erat diam congue dictum dignissim. See full project here <a href="https://yethzibel.github.io/landing-page/" target="_blank" id="project-tile">https://yethzibel.github.io/landing-page/</a></p>
+		        </div>
+		    </div>     
+
+		    <div id="projects-documentation" class="project-tile">
+		        <div class="text-documentation">
+		        	<h1>Technical Documentation Page</h1>
+		            <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque sollicitudin dis hendrerit metus porta, erat diam congue dictum dignissim. See full project here <a href="https://yethzibel.github.io/doc-page/" target="_blank" id="project-tile">https://yethzibel.github.io/doc-page/</a></p>
+		        </div>
+		        
+		        <img src="image/js.png">
+		    </div>
+
+		    <div id="projects-portfolio" class="project-tile">
+		        <img src="image/UI.png">
+
+		        <div class="text-portfolio">
+		        	<h1>This Portfolio</h1>
+		            <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque sollicitudin dis hendrerit metus porta, erat diam congue dictum dignissim. See full project here<a href="" target="_blank"></a></p>
+		        </div>
+		        
+		    </div>
+    	</section>
+
+	    <section id="about_me" class="about_me">
+	    	<div id="about">
+		    	<div id="profile">
+		            <img src="image/perfil.png">
+
+		            <div id="text-profile">
+		            	<h1>Yethzibel Forero</h1>
+		                <p>Frontend Developer</p>
+		            </div>
+		            
+		    	</div>
+
+		        <div class="text-about">
+		        	<p>Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque sollicitudin dis hendrerit metus porta, erat diam congue dictum dignissim. Dui sollicitudin mauris lacus convallis taciti luctus eleifend rutrum, proin himenaeos sodales torquent mi ultrices nascetur.</p>
+		        </div>
+		    </div>
+	        
+	    </section>
+
+	    <section id="contact" class="contact">
+	    	<div id="contact-section">
+		        <img src="image/lapto.png">
+
+		        <div id="form">
+		        	<div id="survey">
+		        		<h1>FEEDBACK FORM</h1>
+			            <label id="name">Name</label><br>
+			            <input type="text" id="name" name="name" required><br>
+			           	<label id="email">Email</label><br>
+			            <input type="email" id="email" name="email" required><br>
+			           	<label id="Phone">Phone</label><br>
+			            <input type="Phone" name="Phone" id="Phone"><br>
+			            <label id="message">Message</label><br>
+			            <input type="text" name="text" id="text"><br>
+
+			            <div id="submit-button">
+			            	<button type="submit" id="submit">SEND MESSAGE</button>
+			            </div>
+		            	
+		        	</div>
+		     
+		        </div>
+
+		    </div>
+	        
+	    </section>
+
+	    <section id="footer">
+	        <div id="text-footer">
+	            <h1>Yeezycodes</h1>
+	            <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit pellentesque.</p>
+	        </div>
+
+	        <div id="Connect">
+	            <h1>Connect</h1>
+	            <p><a href="https://github.com/yethzibel">GitHub</a></p>
+	            <p><a href="https://www.instagram.com/yeezy_pf/?hl=es-la" target="_blank">Instagram</a></p>
+	            <p><a href="https://twitter.com/YethzibelF">Twitter</a></p>
+	        </div>
+
+	        <div id="Links">
+	            <h1>Links</h1>
+	            <p><a href="#welcome-section">Home</a></p>
+	            <p><a href="#about_me">About Me</a></p>
+	            <p><a href="#contac">Contac</a></p>
+	        </div>
+
+	        <div id="social-media">
+	        	<h1>Social Media</h1>
+	        	<div id="icon-media">
+	        		<a href="https://github.com/yethzibel">
+		        	    <svg id="github" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+		        	</a>
+
+		        	<a href="https://www.linkedin.com/in/yethzibel-forero-59a9861ba/">
+		        	    <svg id="linkind" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
+		        	</a>
+
+		        	<a href="https://twitter.com/YethzibelF">
+		        	    <svg id="twitter" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>
+		        	</a>
+
+		        	<a href="https://www.instagram.com/yeezy_pf/?hl=es-la">
+		        	    <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
+		        	</a>
+	        	</div>
+
+	        </div>
+
+	    </section>
+   
+    </div>
+</body>
+</html>
